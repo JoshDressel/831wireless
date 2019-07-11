@@ -1,4 +1,4 @@
-![Linux gray hat] (https://831wireless.cf/images/grayhat_inverted.png)
+![Linux gray hat] (images/grayhat_inverted.png)
 **831Wireless**
 > "Irrationality is the square root of all evil."
 -Douglas R. Hofstadter
