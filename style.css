@@ -85,6 +85,41 @@ html, body {
     font-size: 4.5rem;
     padding: 3rem;
 }
+.fa-github {
+    color: #333;
+}
+.fa-discord {
+    color: #7289da;
+}
+.fa-twitter {
+    color: #00aced;
+}
+.fa-google-wallet {
+    color: #db4437;
+}
+.fa-paypal {
+    color: #253b80;
+}
+.fa-github:hover, .fa-discord:hover, .fa-twitter:hover, .fa-google-wallet:hover, .fa-paypal:hover {
+    color: #d5d5d5;
+}
+footer {
+    background-color: #3f3f3f;
+    color: #d5d5d5;
+    padding-top: 2rem;
+}
+hr.light {
+    border-top: 1px solid #d5d5d5;
+    width: 75%;
+    margin-top: .8rem;
+    margin-bottom: 1rem;
+}
+hr.light-100 {
+    border-top: 1px solid #d5d5d5;
+    width: 100%;
+    margin-top: .8rem;
+    margin-bottom: 1rem;
+}
 
 /*---Media Queries --*/
 @media (max-width: 992px) {
