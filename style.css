@@ -1,14 +1,90 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
 
-
-
-
-
-
-
-
-
-
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    color: #222;
+}
+.navbar {
+    padding: .8rem;
+}
+.navbar-nav li {
+    padding-right: 20px;
+}
+.nav-link {
+    font-size: 1.1rem !important;
+}
+.carousel-inner img {
+    height: 100%;
+    width: 100%;
+}
+.carousel-caption {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%)
+}
+.carousel-caption h1 {
+    font-size: 5rem;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 15px #000;
+}
+.carousel-caption h3 {
+    font-size: 2rem;
+    font-weight: 500;
+    text-shadow: 1px 1px 10px #000;
+    padding-bottom: 1rem;
+}
+.btn.primary {
+    background-color: #6648b1;
+    border: 1px solid #6648b1;
+}
+.btn-primary:hover {
+    background-color: #563d7c;
+    border: 1px solid #563d7c;
+}
+.jumbotron {
+    padding: 1rem;
+    border-radius: 0;
+}
+.padding {
+    padding-bottom: 2rem;
+}
+.welcome {
+    width: 75%;
+    margin: 0 auto;
+    padding-top: 2rem;
+}
+.welcome hr {
+    border-top: 2px solid #b4b4b4;
+    width: 95%;
+    margin-top: .3rem;
+    margin-bottom: 1rem;
+}
+.fa-code {
+    color: #e54d26;
+}
+.fa-bold {
+    color: #563d7c;
+}
+.fa-css3 {
+    color: 2163af;
+}
+.fa-code, .fa-bold, .fa-css3 {
+    font-size: 4rem;
+    margin: 1rem;
+}
+.fun {
+    width: 100%;
+    margin-bottom: 2rem;
+}
+.gif {
+    max-width: 100%;
+}
+.social a {
+    font-size: 4.5rem;
+    padding: 3rem;
+}
 
 /*---Media Queries --*/
 @media (max-width: 992px) {
@@ -17,6 +93,7 @@
 @media (max-width: 768px) {
   
 }
+/*---Line 96 reserved in loving memory of Trent Dressel 1996-2019 --*/
 @media (max-width: 576px) {
   
 }
